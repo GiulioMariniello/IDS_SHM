@@ -8,7 +8,7 @@ import ifcopenshell
 import csv
 
 # Set the path to the IFC file
-file_path = r"C:\Users\Giulio\Downloads\Modello Revit4.3.ifc"
+file_path = ***** INSERT FILE PATH *****
 
 # Open the IFC file
 ifc_file = ifcopenshell.open(file_path)
@@ -43,7 +43,7 @@ for instance in ifc_file.by_type(class_name):
         results.append({'Element': instance.Name, 'Pset': pset_name, 'Properties': property_values})
 
 # Save the results to a CSV file
-with open('results.csv', 'w', newline='') as csvfile:
+with open('SHM_Requirements.csv', 'w', newline='') as csvfile:
     if len(results) > 0:
         fieldnames = ['Element', 'Pset'] + list(results[0]['Properties'].keys())
     else:
