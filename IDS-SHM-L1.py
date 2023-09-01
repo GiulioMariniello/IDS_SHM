@@ -1,4 +1,4 @@
-# Title: Define IDS for Executive Design of SHM system using data form Preliminary Design
+# Title: Define IDS for Preliminary Design of SHM system using data form LOIN definitions
 # Authors: Giulio Mariniello
 # Affiliation: Department of Structures for Engineering and Architecture - University of Naples
 # E-mail: giulio.mariniello@unina.it
