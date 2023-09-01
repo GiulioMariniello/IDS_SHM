@@ -1,3 +1,9 @@
+# Title: Define IDS for Executive Design of SHM system using data form Preliminary Design
+# Authors: Giulio Mariniello
+# Affiliation: Department of Structures for Engineering and Architecture - University of Naples
+# E-mail: giulio.mariniello@unina.it
+
+
 import csv
 import numpy as np
 import xml.etree.ElementTree as ET
